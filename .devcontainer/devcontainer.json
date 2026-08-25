@@ -1,4 +1,7 @@
 {
   "name": "TypeScript Recitation",
-  "image": "node:24-slim",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  }
 }
